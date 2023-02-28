@@ -1,0 +1,917 @@
+- 19:24:22.062 INFO: --------------------------------------------------------
+- 19:24:22.062 INFO: Started application
+- 19:24:22.062 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:24:22.062 INFO: Log level = DEBUG4
+- 19:24:22.062 INFO: Starting Mongoose 3.9c web server
+- 19:24:22.062 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www
+- 19:24:22.062 INFO: Index files: index.html,index.php
+- 19:24:22.062 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:24:22.062 INFO: CGI pattern: **.php$
+- 19:24:22.062 INFO: Hide files patterns: 
+- 19:24:22.062 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:24:22.062 INFO: Web server url: http://127.0.0.1:53378/
+- 19:24:22.062 INFO: remote_debugging_port = 62935
+- 19:24:22.062 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=62935
+- 19:24:22.219 DEBUG: App::OnContextInitialized()
+- 19:24:22.219 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:24:22.219 DEBUG: Window max width/height = 1842/974
+- 19:24:22.219 DEBUG: GetBrowserWindow(): not found, hwnd = 198584
+- 19:24:22.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:24:22.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:24:22.219 DEBUG: StoreBrowserWindow(): hwnd = 198584
+- 19:24:22.281 DEBUG: ClientHandler::OnAfterCreated()
+- 19:24:22.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:24:22.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=89C0FE71A98D729ED5D209EEC06FA537 --mojo-platform-channel-handle=1880 /prefetch:2
+- 19:24:22.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:24:22.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=88972BC0027E5843661D5F1B3062F635 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=88972BC0027E5843661D5F1B3062F635 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 19:24:22.031 DEBUG: OnBrowserCreated()
+[0228/192422.765:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:24:23.562 INFO: GET 200 /style.css
+- 19:24:23.562 INFO: GET 200 /
+- 19:24:23.218 DEBUG: OnContextCreated()
+- 19:24:23.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53378/
+- 19:24:39.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53378/
+- 19:24:39.875 INFO: GET -1 /public
+- 19:24:39.609 DEBUG: OnContextCreated()
+- 19:24:39.953 INFO: GET 200 /public/
+- 19:24:39.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53378/public/
+- 19:24:43.141 DEBUG: WM_DESTROY
+- 19:24:43.141 DEBUG: RemoveBrowserWindow(): hwnd = 198584
+- 19:24:43.141 INFO: Stopping Mongoose web server
+- 19:24:43.141 DEBUG: Mongoose webserver stopped immediately
+- 19:24:43.156 DEBUG: OnBeforeClose() hwnd=1247004
+- 19:24:43.156 DEBUG: RemoveBrowserWindow(): hwnd = 1247004
+- 19:24:43.156 DEBUG: GetBrowserWindow(): not found, hwnd = 1247004
+- 19:24:43.156 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:24:43.156 DEBUG: Calling CefQuitMessageLoop()
+- 19:24:43.203 INFO: Ended application
+- 19:24:43.203 INFO: --------------------------------------------------------
+- 19:29:52.062 INFO: --------------------------------------------------------
+- 19:29:52.062 INFO: Started application
+- 19:29:52.062 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:29:52.062 INFO: Log level = DEBUG4
+- 19:29:52.062 INFO: Starting Mongoose 3.9c web server
+- 19:29:52.062 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:29:52.062 INFO: Index files: index.html,index.php
+- 19:29:52.062 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:29:52.062 INFO: CGI pattern: **.php$
+- 19:29:52.062 INFO: Hide files patterns: 
+- 19:29:52.062 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:29:52.062 INFO: Web server url: http://127.0.0.1:53427/
+- 19:29:52.062 INFO: remote_debugging_port = 55977
+- 19:29:52.062 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=55977
+- 19:29:52.125 DEBUG: App::OnContextInitialized()
+- 19:29:52.125 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:29:52.125 DEBUG: Window max width/height = 1842/974
+- 19:29:52.125 DEBUG: GetBrowserWindow(): not found, hwnd = 394584
+- 19:29:52.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:29:52.125 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 19:29:52.140 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 19:29:52.140 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:29:52.140 DEBUG: StoreBrowserWindow(): hwnd = 394584
+- 19:29:52.187 DEBUG: ClientHandler::OnAfterCreated()
+- 19:29:52.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:29:52.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=660634FC9B0772FD77E2C83E72B6CEFD --mojo-platform-channel-handle=1932 /prefetch:2
+- 19:29:52.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:29:52.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=AF68071F0B6521D3B115CB884C3CE8FD --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AF68071F0B6521D3B115CB884C3CE8FD --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+- 19:29:52.031 DEBUG: OnBrowserCreated()
+[0228/192952.446:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:30:00.515 INFO: GET 200 /custom/css/custom.css
+- 19:30:00.297 DEBUG: OnContextCreated()
+- 19:30:00.531 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:30:00.531 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:30:00.531 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:30:00.531 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:30:00.531 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:30:00.562 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:30:00.578 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:30:00.593 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:30:00.609 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:30:00.625 INFO: GET 200 /
+- 19:30:00.687 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:30:00.703 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:30:00.703 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:30:00.718 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:30:00.718 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:30:00.734 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:30:00.765 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:30:00.765 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:30:00.796 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:30:00.796 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:30:01.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53427/
+- 19:30:07.625 DEBUG: WM_DESTROY
+- 19:30:07.625 DEBUG: RemoveBrowserWindow(): hwnd = 394584
+- 19:30:07.625 INFO: Stopping Mongoose web server
+- 19:30:07.625 DEBUG: Mongoose webserver stopped immediately
+- 19:30:07.625 DEBUG: OnBeforeClose() hwnd=656186
+- 19:30:07.625 DEBUG: RemoveBrowserWindow(): hwnd = 656186
+- 19:30:07.625 DEBUG: GetBrowserWindow(): not found, hwnd = 656186
+- 19:30:07.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:30:07.625 DEBUG: Calling CefQuitMessageLoop()
+- 19:30:07.656 INFO: Ended application
+- 19:30:07.656 INFO: --------------------------------------------------------
+- 19:39:20.047 INFO: --------------------------------------------------------
+- 19:39:20.047 INFO: Started application
+- 19:39:20.047 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:39:20.047 INFO: Log level = DEBUG4
+- 19:39:20.047 INFO: Starting Mongoose 3.9c web server
+- 19:39:20.047 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:39:20.047 INFO: Index files: index.html,index.php
+- 19:39:20.047 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:39:20.047 INFO: CGI pattern: **.php$
+- 19:39:20.047 INFO: Hide files patterns: 
+- 19:39:20.047 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:39:20.047 INFO: Web server url: http://127.0.0.1:53634/
+- 19:39:20.047 INFO: remote_debugging_port = 59368
+- 19:39:20.047 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome_original.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=59368
+- 19:39:20.109 DEBUG: App::OnContextInitialized()
+- 19:39:20.109 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:39:20.109 DEBUG: Window max width/height = 1842/974
+- 19:39:20.109 DEBUG: GetBrowserWindow(): not found, hwnd = 395236
+- 19:39:20.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:39:20.109 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 19:39:20.109 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 19:39:20.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:39:20.109 DEBUG: StoreBrowserWindow(): hwnd = 395236
+- 19:39:20.156 DEBUG: ClientHandler::OnAfterCreated()
+- 19:39:20.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:39:20.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome_original.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=650AF84C5967B59E514284ACCACAEE50 --mojo-platform-channel-handle=1876 /prefetch:2
+- 19:39:20.188 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:39:20.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome_original.exe" --type=renderer --no-sandbox --primordial-pipe-token=555045EFD71B90CE65A889E6497A3458 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=555045EFD71B90CE65A889E6497A3458 --renderer-client-id=3 --mojo-platform-channel-handle=2320 /prefetch:1
+- 19:39:20.032 DEBUG: OnBrowserCreated()
+[0228/193920.255:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:39:21.563 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:39:21.563 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:39:21.578 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:39:21.578 INFO: GET 200 /custom/css/custom.css
+- 19:39:21.344 DEBUG: OnContextCreated()
+- 19:39:21.578 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:39:21.578 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:39:21.578 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:39:21.578 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:39:21.578 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:39:21.578 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:39:21.594 INFO: GET 200 /
+- 19:39:21.609 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:39:21.609 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:39:21.609 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:39:21.609 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:39:21.609 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:39:21.609 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:39:21.609 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:39:21.609 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:39:21.734 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:39:21.781 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:39:21.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53634/
+- 19:39:24.250 DEBUG: WM_DESTROY
+- 19:39:24.250 DEBUG: RemoveBrowserWindow(): hwnd = 395236
+- 19:39:24.250 INFO: Stopping Mongoose web server
+- 19:39:24.250 DEBUG: Mongoose webserver stopped immediately
+- 19:39:24.250 DEBUG: OnBeforeClose() hwnd=787758
+- 19:39:24.250 DEBUG: RemoveBrowserWindow(): hwnd = 787758
+- 19:39:24.250 DEBUG: GetBrowserWindow(): not found, hwnd = 787758
+- 19:39:24.250 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:39:24.250 DEBUG: Calling CefQuitMessageLoop()
+- 19:39:24.297 INFO: Ended application
+- 19:39:24.297 INFO: --------------------------------------------------------
+- 19:39:27.047 INFO: --------------------------------------------------------
+- 19:39:27.047 INFO: Started application
+- 19:39:27.047 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:39:27.047 INFO: Log level = DEBUG4
+- 19:39:27.047 INFO: Starting Mongoose 3.9c web server
+- 19:39:27.047 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:39:27.047 INFO: Index files: index.html,index.php
+- 19:39:27.047 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:39:27.047 INFO: CGI pattern: **.php$
+- 19:39:27.047 INFO: Hide files patterns: 
+- 19:39:27.047 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:39:27.047 INFO: Web server url: http://127.0.0.1:53658/
+- 19:39:27.047 INFO: remote_debugging_port = 64105
+- 19:39:27.047 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=64105
+- 19:39:27.094 DEBUG: App::OnContextInitialized()
+- 19:39:27.094 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:39:27.094 DEBUG: Window max width/height = 1842/974
+- 19:39:27.094 DEBUG: GetBrowserWindow(): not found, hwnd = 2164436
+- 19:39:27.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:39:27.110 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 19:39:27.110 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 19:39:27.110 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:39:27.110 DEBUG: StoreBrowserWindow(): hwnd = 2164436
+- 19:39:27.141 DEBUG: ClientHandler::OnAfterCreated()
+- 19:39:27.157 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:39:27.157 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:39:27.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=34EA552E5B4ADAD9AB0CB9F343093400 --mojo-platform-channel-handle=1892 /prefetch:2
+- 19:39:27.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7F6619F97002F02EFAA562E7CB422A5F --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7F6619F97002F02EFAA562E7CB422A5F --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 19:39:27.016 DEBUG: OnBrowserCreated()
+[0228/193927.670:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:39:28.532 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:39:28.532 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:39:28.532 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:39:28.532 INFO: GET 200 /custom/css/custom.css
+- 19:39:28.532 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:39:28.547 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:39:28.547 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:39:28.547 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:39:28.547 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:39:28.547 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:39:28.547 INFO: GET 200 /
+- 19:39:28.328 DEBUG: OnContextCreated()
+- 19:39:28.563 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:39:28.563 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:39:28.578 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:39:28.578 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:39:28.578 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:39:28.578 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:39:28.578 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:39:28.578 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:39:29.688 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:39:29.688 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:39:29.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53658/
+- 19:39:30.563 DEBUG: WM_DESTROY
+- 19:39:30.563 DEBUG: RemoveBrowserWindow(): hwnd = 2164436
+- 19:39:30.563 INFO: Stopping Mongoose web server
+- 19:39:30.563 DEBUG: Mongoose webserver stopped immediately
+- 19:39:30.578 DEBUG: OnBeforeClose() hwnd=853294
+- 19:39:30.578 DEBUG: RemoveBrowserWindow(): hwnd = 853294
+- 19:39:30.578 DEBUG: GetBrowserWindow(): not found, hwnd = 853294
+- 19:39:30.578 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:39:30.578 DEBUG: Calling CefQuitMessageLoop()
+- 19:39:31.610 INFO: Ended application
+- 19:39:31.610 INFO: --------------------------------------------------------
+- 19:39:39.062 INFO: --------------------------------------------------------
+- 19:39:39.062 INFO: Started application
+- 19:39:39.062 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:39:39.062 INFO: Log level = DEBUG4
+- 19:39:39.062 INFO: Starting Mongoose 3.9c web server
+- 19:39:39.062 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:39:39.062 INFO: Index files: index.html,index.php
+- 19:39:39.062 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:39:39.062 INFO: CGI pattern: **.php$
+- 19:39:39.062 INFO: Hide files patterns: 
+- 19:39:39.062 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:39:39.062 INFO: Web server url: http://127.0.0.1:53681/
+- 19:39:39.062 INFO: remote_debugging_port = 61024
+- 19:39:39.062 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=61024
+- 19:39:39.109 DEBUG: App::OnContextInitialized()
+- 19:39:39.109 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:39:39.109 DEBUG: Window max width/height = 1842/974
+- 19:39:39.109 DEBUG: GetBrowserWindow(): not found, hwnd = 460514
+- 19:39:39.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:39:39.125 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 19:39:39.125 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 19:39:39.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:39:39.125 DEBUG: StoreBrowserWindow(): hwnd = 460514
+- 19:39:39.172 DEBUG: ClientHandler::OnAfterCreated()
+- 19:39:39.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=DCC683A0723E92C106524279B54472D9 --mojo-platform-channel-handle=1872 /prefetch:2
+- 19:39:39.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:39:39.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:39:39.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D6C7E6B9F3DCE5E2B9360E3519552336 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D6C7E6B9F3DCE5E2B9360E3519552336 --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 19:39:39.031 DEBUG: OnBrowserCreated()
+[0228/193939.456:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:39:40.500 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:39:40.500 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:39:40.281 DEBUG: OnContextCreated()
+- 19:39:40.500 INFO: GET 200 /custom/css/custom.css
+- 19:39:40.500 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:39:40.500 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:39:40.500 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:39:40.500 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:39:40.500 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:39:40.500 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:39:40.500 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:39:40.515 INFO: GET 200 /
+- 19:39:40.531 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:39:40.531 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:39:40.531 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:39:40.531 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:39:40.531 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:39:40.531 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:39:40.547 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:39:40.562 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:39:40.640 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:39:40.640 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:39:41.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53681/
+- 19:39:41.547 DEBUG: WM_DESTROY
+- 19:39:41.562 DEBUG: RemoveBrowserWindow(): hwnd = 460514
+- 19:39:41.562 INFO: Stopping Mongoose web server
+- 19:39:41.562 DEBUG: Mongoose webserver stopped immediately
+- 19:39:41.562 DEBUG: OnBeforeClose() hwnd=394940
+- 19:39:41.562 DEBUG: RemoveBrowserWindow(): hwnd = 394940
+- 19:39:41.562 DEBUG: GetBrowserWindow(): not found, hwnd = 394940
+- 19:39:41.562 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:39:41.562 DEBUG: Calling CefQuitMessageLoop()
+- 19:39:41.594 INFO: Ended application
+- 19:39:41.594 INFO: --------------------------------------------------------
+- 19:40:14.016 INFO: --------------------------------------------------------
+- 19:40:14.016 INFO: Started application
+- 19:40:14.016 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:40:14.016 INFO: Log level = DEBUG4
+- 19:40:14.016 INFO: Starting Mongoose 3.9c web server
+- 19:40:14.016 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:40:14.016 INFO: Index files: index.html,index.php
+- 19:40:14.016 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:40:14.016 INFO: CGI pattern: **.php$
+- 19:40:14.016 INFO: Hide files patterns: 
+- 19:40:14.016 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:40:14.016 INFO: Web server url: http://127.0.0.1:53728/
+- 19:40:14.016 INFO: remote_debugging_port = 59581
+- 19:40:14.016 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=59581
+- 19:40:14.047 DEBUG: App::OnContextInitialized()
+- 19:40:14.047 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:40:14.047 DEBUG: Window max width/height = 1842/974
+- 19:40:14.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1836778
+- 19:40:14.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:40:14.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:40:14.047 DEBUG: StoreBrowserWindow(): hwnd = 1836778
+- 19:40:14.094 DEBUG: ClientHandler::OnAfterCreated()
+- 19:40:14.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:40:14.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:40:14.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=8A1EA6A0743AF3DCC34063179390FF09 --mojo-platform-channel-handle=1824 /prefetch:2
+- 19:40:14.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A5B1B048774773DE96320867A20BC6CC --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A5B1B048774773DE96320867A20BC6CC --renderer-client-id=3 --mojo-platform-channel-handle=2332 /prefetch:1
+- 19:40:14.031 DEBUG: OnBrowserCreated()
+[0228/194014.596:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:40:15.469 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:40:15.469 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:40:15.469 INFO: GET 200 /custom/css/custom.css
+- 19:40:15.469 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:40:15.469 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:40:15.313 DEBUG: OnContextCreated()
+- 19:40:15.469 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:40:15.469 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:40:15.469 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:40:15.469 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:40:15.469 INFO: GET 200 /
+- 19:40:15.469 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:40:15.500 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:40:15.500 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:40:15.500 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:40:15.500 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:40:15.500 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:40:15.500 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:40:15.500 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:40:15.500 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:40:16.594 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:40:16.609 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:40:16.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53728/
+- 19:40:18.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53728/
+- 19:40:18.312 INFO: GET 404 /brand
+- 19:40:18.156 DEBUG: OnContextCreated()
+- 19:40:18.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53728/brand
+- 19:40:22.828 DEBUG: WM_DESTROY
+- 19:40:22.828 DEBUG: RemoveBrowserWindow(): hwnd = 1836778
+- 19:40:22.828 INFO: Stopping Mongoose web server
+- 19:40:22.828 DEBUG: Mongoose webserver stopped immediately
+- 19:40:22.844 DEBUG: OnBeforeClose() hwnd=591508
+- 19:40:22.844 DEBUG: RemoveBrowserWindow(): hwnd = 591508
+- 19:40:22.844 DEBUG: GetBrowserWindow(): not found, hwnd = 591508
+- 19:40:22.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:40:22.844 DEBUG: Calling CefQuitMessageLoop()
+- 19:40:22.875 INFO: Ended application
+- 19:40:22.875 INFO: --------------------------------------------------------
+- 19:42:04.000 INFO: --------------------------------------------------------
+- 19:42:04.000 INFO: Started application
+- 19:42:04.000 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:42:04.000 INFO: Log level = DEBUG4
+- 19:42:04.000 INFO: Starting Mongoose 3.9c web server
+- 19:42:04.000 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:42:04.000 INFO: Index files: index.html,index.php
+- 19:42:04.000 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:42:04.000 INFO: CGI pattern: **.php$
+- 19:42:04.000 INFO: Hide files patterns: 
+- 19:42:04.000 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:42:04.000 INFO: Web server url: http://127.0.0.1:53796/
+- 19:42:04.000 INFO: remote_debugging_port = 60537
+- 19:42:04.000 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=60537
+- 19:42:05.062 DEBUG: App::OnContextInitialized()
+- 19:42:05.062 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:42:05.062 DEBUG: Window max width/height = 1842/974
+- 19:42:05.062 DEBUG: GetBrowserWindow(): not found, hwnd = 854090
+- 19:42:05.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:42:05.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:42:05.078 DEBUG: StoreBrowserWindow(): hwnd = 854090
+- 19:42:05.109 DEBUG: ClientHandler::OnAfterCreated()
+- 19:42:05.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:42:05.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:42:05.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=1431D39C6E4054764FCFE1247493D1DC --mojo-platform-channel-handle=1820 /prefetch:2
+- 19:42:05.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=39B1055C5D14BFDBBF6738A4162D6F30 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=39B1055C5D14BFDBBF6738A4162D6F30 --renderer-client-id=3 --mojo-platform-channel-handle=2328 /prefetch:1
+- 19:42:05.094 DEBUG: OnBrowserCreated()
+[0228/194205.355:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:42:08.094 INFO: GET 200 /custom/css/custom.css
+- 19:42:08.094 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:42:08.782 DEBUG: OnContextCreated()
+- 19:42:08.094 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:42:08.109 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:42:08.109 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:42:08.109 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:42:08.140 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:42:08.156 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:42:08.156 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:42:08.172 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:42:08.187 INFO: GET 200 /
+- 19:42:08.234 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:42:08.250 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:42:08.250 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:42:08.265 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:42:08.265 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:42:08.281 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:42:08.281 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:42:08.312 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:42:08.328 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:42:08.344 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:42:08.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53796/
+- 19:42:09.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53796/
+- 19:42:09.234 INFO: GET 404 /product
+- 19:42:09.922 DEBUG: OnContextCreated()
+- 19:42:09.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53796/product
+- 19:42:12.672 INFO: GET 404 /product
+- 19:42:12.781 INFO: GET 200 /favicon.ico
+- 19:42:16.984 INFO: GET 200 /
+- 19:42:16.000 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:42:16.000 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:42:16.000 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:42:16.000 INFO: GET 200 /custom/css/custom.css
+- 19:42:16.015 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:42:16.015 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:42:16.015 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:42:16.015 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:42:16.015 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:42:16.015 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:42:16.015 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:42:16.015 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:42:16.031 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:42:16.031 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:42:16.031 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:42:16.031 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:42:16.031 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:42:16.031 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:42:17.156 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:42:17.219 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:42:18.203 INFO: GET 404 /brand
+- 19:42:58.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53796/product
+- 19:42:58.407 DEBUG: OnContextCreated()
+- 19:42:58.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53796/
+- 19:42:59.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53796/
+- 19:42:59.937 INFO: GET 404 /brand
+- 19:42:59.641 DEBUG: OnContextCreated()
+- 19:42:59.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53796/brand
+- 19:43:01.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53796/brand
+- 19:43:01.953 DEBUG: OnContextCreated()
+- 19:43:01.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53796/
+- 19:43:02.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53796/
+- 19:43:02.656 INFO: GET 404 /brand
+- 19:43:02.344 DEBUG: OnContextCreated()
+- 19:43:02.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53796/brand
+- 19:43:03.687 DEBUG: ClientHandler::OnAfterCreated()
+- 19:43:03.703 DEBUG: GetBrowserWindow(): not found, hwnd = 3540570
+- 19:43:03.703 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 19:43:03.703 DEBUG: StoreBrowserWindow(): hwnd = 3540570
+- 19:43:03.703 DEBUG: Centering popup window relative to its parent
+- 19:43:03.703 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:43:03.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=547CF15A9C86A0D8F960529512C7D444 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=547CF15A9C86A0D8F960529512C7D444 --renderer-client-id=4 --mojo-platform-channel-handle=3620 /prefetch:1
+- 19:43:03.016 DEBUG: OnBrowserCreated()
+- 19:43:03.031 DEBUG: OnContextCreated()
+- 19:43:03.890 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 19:43:10.203 DEBUG: OnBeforeClose() hwnd=3540570
+- 19:43:10.203 DEBUG: RemoveBrowserWindow(): hwnd = 3540570
+- 19:44:15.469 DEBUG: WM_DESTROY
+- 19:44:15.469 DEBUG: RemoveBrowserWindow(): hwnd = 854090
+- 19:44:15.469 INFO: Stopping Mongoose web server
+- 19:44:15.469 DEBUG: Mongoose webserver stopped immediately
+- 19:44:15.469 DEBUG: OnBeforeClose() hwnd=1574186
+- 19:44:15.469 DEBUG: RemoveBrowserWindow(): hwnd = 1574186
+- 19:44:15.469 DEBUG: GetBrowserWindow(): not found, hwnd = 1574186
+- 19:44:15.469 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:44:15.469 DEBUG: Calling CefQuitMessageLoop()
+- 19:44:15.515 INFO: Ended application
+- 19:44:15.515 INFO: --------------------------------------------------------
+- 19:44:56.016 INFO: --------------------------------------------------------
+- 19:44:56.016 INFO: Started application
+- 19:44:56.016 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:44:56.016 INFO: Log level = DEBUG4
+- 19:44:56.016 INFO: Starting Mongoose 3.9c web server
+- 19:44:56.016 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:44:56.016 INFO: Index files: index.php
+- 19:44:56.016 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:44:56.016 INFO: CGI pattern: **.php$
+- 19:44:56.016 INFO: Hide files patterns: 
+- 19:44:56.016 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:44:56.016 INFO: Web server url: http://127.0.0.1:54042/
+- 19:44:56.016 INFO: remote_debugging_port = 53593
+- 19:44:56.016 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=53593
+- 19:44:57.047 DEBUG: App::OnContextInitialized()
+- 19:44:57.047 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:44:57.047 DEBUG: Window max width/height = 1842/974
+- 19:44:57.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2361290
+- 19:44:57.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:44:57.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:44:57.047 DEBUG: StoreBrowserWindow(): hwnd = 2361290
+- 19:44:57.094 DEBUG: ClientHandler::OnAfterCreated()
+- 19:44:57.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:44:57.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:44:57.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=CA4604BB3CCB602A107FB9DF573CF1F9 --mojo-platform-channel-handle=1824 /prefetch:2
+- 19:44:57.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6CC1A3DABE6BDA7814F22461AC33624A --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6CC1A3DABE6BDA7814F22461AC33624A --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 19:44:57.032 DEBUG: OnBrowserCreated()
+[0228/194457.175:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:44:58.500 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:44:58.500 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:44:58.500 INFO: GET 200 /custom/css/custom.css
+- 19:44:58.500 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:44:58.500 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:44:58.516 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:44:58.516 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:44:58.516 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:44:58.516 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:44:58.344 DEBUG: OnContextCreated()
+- 19:44:58.516 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:44:58.516 INFO: GET 200 /
+- 19:44:58.625 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:44:58.625 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:44:58.625 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:44:58.625 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:44:58.625 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:44:58.625 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:44:58.625 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:44:58.625 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:44:58.625 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:44:58.704 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:44:58.829 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54042/
+- 19:44:59.657 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54042/
+- 19:44:59.703 DEBUG: OnContextCreated()
+- 19:44:59.875 INFO: GET 200 /brand
+- 19:44:59.938 INFO: GET 200 /custom/js/brand.js
+- 19:44:59.985 INFO: GET 200 /assests/plugins/datatables/images/sort_both.png
+- 19:44:59.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54042/brand
+- 19:45:00.235 INFO: GET 200 /brand/fetch_brand?_=1677593699864
+- 19:45:02.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54042/brand
+- 19:45:02.438 DEBUG: OnContextCreated()
+- 19:45:02.610 INFO: GET 200 /custom/js/categories.js
+- 19:45:02.610 INFO: GET 200 /category
+- 19:45:02.657 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54042/category
+- 19:45:02.875 INFO: GET 200 /category/fetchCategories?_=1677593702585
+- 19:45:03.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54042/category
+- 19:45:03.422 DEBUG: OnContextCreated()
+- 19:45:03.610 INFO: GET 200 /product
+- 19:45:03.625 INFO: GET 200 /custom/js/product.js
+- 19:45:03.657 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54042/product
+- 19:45:03.860 INFO: GET 200 /product/fetchProduct?_=1677593703579
+- 19:45:05.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54042/product
+- 19:45:05.860 DEBUG: OnContextCreated()
+- 19:45:05.032 INFO: GET 200 /
+- 19:45:06.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54042/
+- 19:45:07.422 DEBUG: WM_DESTROY
+- 19:45:07.422 DEBUG: RemoveBrowserWindow(): hwnd = 2361290
+- 19:45:07.422 INFO: Stopping Mongoose web server
+- 19:45:07.422 DEBUG: Mongoose webserver stopped immediately
+- 19:45:07.422 DEBUG: OnBeforeClose() hwnd=2819684
+- 19:45:07.422 DEBUG: RemoveBrowserWindow(): hwnd = 2819684
+- 19:45:07.422 DEBUG: GetBrowserWindow(): not found, hwnd = 2819684
+- 19:45:07.422 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:45:07.422 DEBUG: Calling CefQuitMessageLoop()
+- 19:45:07.485 INFO: Ended application
+- 19:45:07.485 INFO: --------------------------------------------------------
+- 19:46:19.000 INFO: --------------------------------------------------------
+- 19:46:19.000 INFO: Started application
+- 19:46:19.000 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:46:19.000 INFO: Log level = DEBUG4
+- 19:46:19.000 INFO: Starting Mongoose 3.9c web server
+- 19:46:19.000 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:46:19.000 INFO: Index files: index.php
+- 19:46:19.000 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:46:19.000 INFO: CGI pattern: **.php$
+- 19:46:19.000 INFO: Hide files patterns: 
+- 19:46:19.000 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:46:19.000 INFO: Web server url: http://127.0.0.1:8000/
+- 19:46:19.000 INFO: remote_debugging_port = 56970
+- 19:46:19.000 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=56970
+- 19:46:19.047 DEBUG: App::OnContextInitialized()
+- 19:46:19.047 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:46:19.047 DEBUG: Window max width/height = 1842/974
+- 19:46:19.047 DEBUG: GetBrowserWindow(): not found, hwnd = 4523658
+- 19:46:19.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:46:19.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:46:19.047 DEBUG: StoreBrowserWindow(): hwnd = 4523658
+- 19:46:19.078 DEBUG: ClientHandler::OnAfterCreated()
+- 19:46:19.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:46:19.016 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=A6380FCCD9C8259E8C667C782798A2EA --mojo-platform-channel-handle=1840 /prefetch:2
+- 19:46:19.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:46:19.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=44EA945DFE583A8480292BBB60D06BC0 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=44EA945DFE583A8480292BBB60D06BC0 --renderer-client-id=3 --mojo-platform-channel-handle=2332 /prefetch:1
+- 19:46:20.032 DEBUG: OnBrowserCreated()
+[0228/194620.010:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:46:21.453 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:46:21.453 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:46:21.453 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:46:21.453 INFO: GET 200 /custom/css/custom.css
+- 19:46:21.453 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:46:21.313 DEBUG: OnContextCreated()
+- 19:46:21.453 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:46:21.453 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:46:21.453 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:46:21.453 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:46:21.453 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:46:21.469 INFO: GET 200 /
+- 19:46:21.547 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:46:21.547 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:46:21.547 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:46:21.547 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:46:21.547 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:46:21.562 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:46:21.562 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:46:21.562 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:46:21.562 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:46:21.625 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:46:21.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:46:23.844 INFO: GET 200 /
+- 19:46:23.859 INFO: GET 200 /assests/bootstrap/css/bootstrap-theme.min.css
+- 19:46:23.859 INFO: GET 200 /assests/bootstrap/css/bootstrap.min.css
+- 19:46:23.859 INFO: GET 200 /assests/font-awesome/css/font-awesome.min.css
+- 19:46:23.859 INFO: GET 200 /custom/css/custom.css
+- 19:46:23.859 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.css
+- 19:46:23.859 INFO: GET 200 /assests/plugins/fileinput/css/fileinput.min.css
+- 19:46:23.875 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.css
+- 19:46:23.875 INFO: GET 200 /assests/jquery/jquery.min.js
+- 19:46:23.875 INFO: GET 200 /assests/bootstrap/js/bootstrap.min.js
+- 19:46:23.875 INFO: GET 200 /assests/jquery-ui/jquery-ui.min.js
+- 19:46:23.890 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.css
+- 19:46:23.890 INFO: GET 200 /assests/plugins/moment/moment.min.js
+- 19:46:23.890 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.min.js
+- 19:46:23.890 INFO: GET 200 /assests/plugins/fileinput/js/plugins/canvas-to-blob.min.js
+- 19:46:23.890 INFO: GET 200 /assests/plugins/fileinput/js/plugins/sortable.min.js
+- 19:46:23.890 INFO: GET 200 /assests/plugins/fileinput/js/plugins/purify.min.js
+- 19:46:23.906 INFO: GET 200 /assests/plugins/fileinput/js/fileinput.min.js
+- 19:46:23.906 INFO: GET 200 /assests/plugins/datatables/jquery.dataTables.min.js
+- 19:46:23.031 INFO: GET 200 /assests/plugins/fullcalendar/fullcalendar.print.css
+- 19:46:23.094 INFO: GET 200 /assests/bootstrap/fonts/glyphicons-halflings-regular.woff2
+- 19:46:24.265 INFO: GET 200 /favicon.ico
+- 19:46:42.219 DEBUG: WM_DESTROY
+- 19:46:42.219 DEBUG: RemoveBrowserWindow(): hwnd = 4523658
+- 19:46:42.219 INFO: Stopping Mongoose web server
+- 19:46:42.219 DEBUG: Mongoose webserver stopped immediately
+- 19:46:42.234 DEBUG: OnBeforeClose() hwnd=2950952
+- 19:46:42.234 DEBUG: RemoveBrowserWindow(): hwnd = 2950952
+- 19:46:42.234 DEBUG: GetBrowserWindow(): not found, hwnd = 2950952
+- 19:46:42.234 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:46:42.234 DEBUG: Calling CefQuitMessageLoop()
+- 19:46:42.281 INFO: Ended application
+- 19:46:42.281 INFO: --------------------------------------------------------
+- 19:47:28.000 INFO: --------------------------------------------------------
+- 19:47:28.000 INFO: Started application
+- 19:47:28.000 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:47:28.000 INFO: Log level = DEBUG4
+- 19:47:28.000 INFO: Starting Mongoose 3.9c web server
+- 19:47:28.000 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:47:28.000 INFO: Index files: index.php
+- 19:47:28.000 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:47:28.000 INFO: CGI pattern: **.php$
+- 19:47:28.000 INFO: Hide files patterns: 
+- 19:47:28.000 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:47:28.015 INFO: Web server url: http://127.0.0.1:8000/
+- 19:47:28.015 INFO: remote_debugging_port = 52036
+- 19:47:28.015 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=52036
+- 19:47:28.047 DEBUG: App::OnContextInitialized()
+- 19:47:28.047 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:47:28.047 DEBUG: Window max width/height = 1842/974
+- 19:47:28.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1509124
+- 19:47:28.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:47:28.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:47:28.047 DEBUG: StoreBrowserWindow(): hwnd = 1509124
+- 19:47:28.094 DEBUG: ClientHandler::OnAfterCreated()
+- 19:47:28.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:47:28.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=0D9F050BE5F1E28D524D7819BACF5217 --mojo-platform-channel-handle=1824 /prefetch:2
+- 19:47:28.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:47:28.016 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=15FC42C69E628F12E7F9F54DB0D57698 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=15FC42C69E628F12E7F9F54DB0D57698 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 19:47:28.047 DEBUG: OnBrowserCreated()
+[0228/194728.898:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:47:30.375 DEBUG: OnContextCreated()
+- 19:47:30.515 INFO: GET 200 /
+- 19:47:30.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:47:31.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 19:47:31.016 DEBUG: OnContextCreated()
+- 19:47:31.172 INFO: GET 200 /brand
+- 19:47:31.281 INFO: GET 200 /custom/js/brand.js
+- 19:47:32.344 INFO: GET 200 /assests/plugins/datatables/images/sort_both.png
+- 19:47:32.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/brand
+- 19:47:32.672 INFO: GET 200 /brand/fetch_brand?_=1677593851920
+- 19:47:32.125 INFO: GET 200 /assests/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0
+- 19:47:41.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/brand
+- 19:47:42.656 INFO: POST 302 /brand/createbrand
+- 19:47:42.766 DEBUG: OnContextCreated()
+- 19:47:42.906 INFO: GET 200 /brand
+- 19:47:42.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/brand
+- 19:47:42.203 INFO: GET 200 /brand/fetch_brand?_=1677593862620
+- 19:47:45.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/brand
+- 19:47:45.157 DEBUG: OnContextCreated()
+- 19:47:46.297 INFO: GET 200 /
+- 19:47:46.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:47:56.015 DEBUG: WM_DESTROY
+- 19:47:56.015 DEBUG: RemoveBrowserWindow(): hwnd = 1509124
+- 19:47:56.015 INFO: Stopping Mongoose web server
+- 19:47:56.015 DEBUG: Mongoose webserver stopped immediately
+- 19:47:56.015 DEBUG: OnBeforeClose() hwnd=2950756
+- 19:47:56.015 DEBUG: RemoveBrowserWindow(): hwnd = 2950756
+- 19:47:56.015 DEBUG: GetBrowserWindow(): not found, hwnd = 2950756
+- 19:47:56.015 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:47:56.015 DEBUG: Calling CefQuitMessageLoop()
+- 19:47:56.062 INFO: Ended application
+- 19:47:56.062 INFO: --------------------------------------------------------
+- 19:48:47.000 INFO: --------------------------------------------------------
+- 19:48:47.000 INFO: Started application
+- 19:48:47.000 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:48:47.000 INFO: Log level = DEBUG4
+- 19:48:47.000 INFO: Starting Mongoose 3.9c web server
+- 19:48:47.000 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:48:47.000 INFO: Index files: index.php
+- 19:48:47.000 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:48:47.000 INFO: CGI pattern: **.php$
+- 19:48:47.000 INFO: Hide files patterns: 
+- 19:48:47.000 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:48:47.016 INFO: Web server url: http://127.0.0.1:8000/
+- 19:48:47.016 INFO: remote_debugging_port = 58866
+- 19:48:47.016 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=58866
+- 19:48:47.047 DEBUG: App::OnContextInitialized()
+- 19:48:47.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2622310
+- 19:48:47.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:48:47.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:48:47.047 DEBUG: StoreBrowserWindow(): hwnd = 2622310
+- 19:48:47.094 DEBUG: ClientHandler::OnAfterCreated()
+- 19:48:47.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:48:47.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:48:47.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=0825CD05201AE3217C8E4F5B64EF8D16 --mojo-platform-channel-handle=1840 /prefetch:2
+- 19:48:47.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5287BDA30D071DEBF2BAF874B86D3FD4 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5287BDA30D071DEBF2BAF874B86D3FD4 --renderer-client-id=3 --mojo-platform-channel-handle=2336 /prefetch:1
+- 19:48:47.031 DEBUG: OnBrowserCreated()
+[0228/194847.339:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:48:48.453 INFO: GET 200 /
+- 19:48:48.296 DEBUG: OnContextCreated()
+- 19:48:48.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:49:31.578 DEBUG: WM_DESTROY
+- 19:49:31.578 DEBUG: RemoveBrowserWindow(): hwnd = 2622310
+- 19:49:31.578 INFO: Stopping Mongoose web server
+- 19:49:31.578 DEBUG: Mongoose webserver stopped immediately
+- 19:49:31.594 DEBUG: OnBeforeClose() hwnd=6358706
+- 19:49:31.594 DEBUG: RemoveBrowserWindow(): hwnd = 6358706
+- 19:49:31.594 DEBUG: GetBrowserWindow(): not found, hwnd = 6358706
+- 19:49:31.594 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:49:31.594 DEBUG: Calling CefQuitMessageLoop()
+- 19:49:31.625 INFO: Ended application
+- 19:49:31.625 INFO: --------------------------------------------------------
+- 19:49:34.016 INFO: --------------------------------------------------------
+- 19:49:34.016 INFO: Started application
+- 19:49:34.016 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:49:34.016 INFO: Log level = DEBUG4
+- 19:49:34.016 INFO: Starting Mongoose 3.9c web server
+- 19:49:34.016 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:49:34.016 INFO: Index files: index.php
+- 19:49:34.016 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:49:34.016 INFO: CGI pattern: **.php$
+- 19:49:34.016 INFO: Hide files patterns: 
+- 19:49:34.016 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:49:34.016 INFO: Web server url: http://127.0.0.1:8000/
+- 19:49:34.016 INFO: remote_debugging_port = 55505
+- 19:49:34.016 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=55505
+- 19:49:34.062 DEBUG: App::OnContextInitialized()
+- 19:49:34.062 DEBUG: GetBrowserWindow(): not found, hwnd = 983762
+- 19:49:34.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:49:34.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:49:34.062 DEBUG: StoreBrowserWindow(): hwnd = 983762
+- 19:49:34.094 DEBUG: ClientHandler::OnAfterCreated()
+- 19:49:34.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:49:34.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:49:34.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=5FD618C5AB1A71A1AEB6D133AC3E0B9F --mojo-platform-channel-handle=1824 /prefetch:2
+- 19:49:34.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4A911F77490358B7308EAC42386C69A8 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4A911F77490358B7308EAC42386C69A8 --renderer-client-id=3 --mojo-platform-channel-handle=2320 /prefetch:1
+- 19:49:34.031 DEBUG: OnBrowserCreated()
+[0228/194934.471:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:49:35.375 DEBUG: OnContextCreated()
+- 19:49:35.516 INFO: GET 200 /
+- 19:49:36.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:49:36.672 DEBUG: WM_DESTROY
+- 19:49:36.672 DEBUG: RemoveBrowserWindow(): hwnd = 983762
+- 19:49:36.672 INFO: Stopping Mongoose web server
+- 19:49:36.672 DEBUG: Mongoose webserver stopped immediately
+- 19:49:36.687 DEBUG: OnBeforeClose() hwnd=1574986
+- 19:49:36.687 DEBUG: RemoveBrowserWindow(): hwnd = 1574986
+- 19:49:36.687 DEBUG: GetBrowserWindow(): not found, hwnd = 1574986
+- 19:49:36.687 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:49:36.687 DEBUG: Calling CefQuitMessageLoop()
+- 19:49:37.719 INFO: Ended application
+- 19:49:37.719 INFO: --------------------------------------------------------
+- 19:49:51.015 INFO: --------------------------------------------------------
+- 19:49:51.015 INFO: Started application
+- 19:49:51.015 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:49:51.015 INFO: Log level = DEBUG4
+- 19:49:51.015 INFO: Starting Mongoose 3.9c web server
+- 19:49:51.015 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:49:51.015 INFO: Index files: index.php
+- 19:49:51.015 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:49:51.015 INFO: CGI pattern: **.php$
+- 19:49:51.015 INFO: Hide files patterns: 
+- 19:49:51.015 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:49:51.015 INFO: Web server url: http://127.0.0.1:8000/
+- 19:49:51.015 INFO: remote_debugging_port = 51577
+- 19:49:51.015 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=51577
+- 19:49:52.078 DEBUG: App::OnContextInitialized()
+- 19:49:52.078 DEBUG: GetBrowserWindow(): not found, hwnd = 787630
+- 19:49:52.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:49:52.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:49:52.078 DEBUG: StoreBrowserWindow(): hwnd = 787630
+- 19:49:52.140 DEBUG: ClientHandler::OnAfterCreated()
+- 19:49:52.140 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:49:52.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:49:52.000 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=5C681B6488338B551D0B992C7D41DB61 --mojo-platform-channel-handle=1836 /prefetch:2
+- 19:49:52.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=058A055FF4CB3565DBFD8F4F5EFE3F10 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=058A055FF4CB3565DBFD8F4F5EFE3F10 --renderer-client-id=3 --mojo-platform-channel-handle=2264 /prefetch:1
+- 19:49:52.031 DEBUG: OnBrowserCreated()
+- 19:49:52.031 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0228/194952.180:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:49:55.343 INFO: GET 200 /
+- 19:49:55.156 DEBUG: OnContextCreated()
+- 19:49:55.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:50:06.656 DEBUG: WM_DESTROY
+- 19:50:06.656 DEBUG: RemoveBrowserWindow(): hwnd = 787630
+- 19:50:06.656 INFO: Stopping Mongoose web server
+- 19:50:06.656 DEBUG: Mongoose webserver stopped immediately
+- 19:50:06.656 DEBUG: OnBeforeClose() hwnd=721980
+- 19:50:06.656 DEBUG: RemoveBrowserWindow(): hwnd = 721980
+- 19:50:06.656 DEBUG: GetBrowserWindow(): not found, hwnd = 721980
+- 19:50:06.656 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:50:06.656 DEBUG: Calling CefQuitMessageLoop()
+- 19:50:06.718 INFO: Ended application
+- 19:50:06.718 INFO: --------------------------------------------------------
+- 19:50:34.000 INFO: --------------------------------------------------------
+- 19:50:34.000 INFO: Started application
+- 19:50:34.000 INFO: Logging to: D:\projects\Shop\SV-Desktop\debug.log
+- 19:50:34.000 INFO: Log level = DEBUG4
+- 19:50:34.000 INFO: Starting Mongoose 3.9c web server
+- 19:50:34.000 INFO: WWW directory: D:\projects\Shop\SV-Desktop\www\public
+- 19:50:34.000 INFO: Index files: index.php
+- 19:50:34.000 INFO: CGI interpreter: D:\projects\Shop\SV-Desktop\php\php-cgi.exe
+- 19:50:34.000 INFO: CGI pattern: **.php$
+- 19:50:34.000 INFO: Hide files patterns: 
+- 19:50:34.000 INFO: CGI environment variables set: TMP=C:\Users\super\AppData\Local\Temp\,TEMP=C:\Users\super\AppData\Local\Temp\,TMPDIR=C:\Users\super\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:50:34.016 INFO: Web server url: http://127.0.0.1:8000/
+- 19:50:34.016 INFO: remote_debugging_port = 53349
+- 19:50:34.016 DEBUG: Command line string for the browser process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --remote-debugging-port=53349
+- 19:50:34.047 DEBUG: App::OnContextInitialized()
+- 19:50:34.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1312456
+- 19:50:34.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:50:34.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:50:34.047 DEBUG: StoreBrowserWindow(): hwnd = 1312456
+- 19:50:34.094 DEBUG: ClientHandler::OnAfterCreated()
+- 19:50:34.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:50:34.016 DEBUG: Command line string for the gpu-process process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a78 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1692 --gpu-driver-date=4-11-2022 --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --service-request-channel-token=BF8A4F4727F11D18CED38CA1564BA63D --mojo-platform-channel-handle=1840 /prefetch:2
+- 19:50:34.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:50:34.000 DEBUG: Command line string for the renderer process: "D:\projects\Shop\SV-Desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A4622420C54A93472190F6DAE3CC4F84 --lang=en-US --lang=en-US --log-file="D:\projects\Shop\SV-Desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A4622420C54A93472190F6DAE3CC4F84 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 19:50:34.031 DEBUG: OnBrowserCreated()
+[0228/195034.312:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:50:35.532 INFO: GET 200 /
+- 19:50:35.391 DEBUG: OnContextCreated()
+- 19:50:35.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:50:36.782 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 19:50:37.859 DEBUG: OnContextCreated()
+- 19:50:37.016 INFO: GET 200 /brand
+- 19:50:37.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/brand
+- 19:50:37.282 INFO: GET 200 /brand/fetch_brand?_=1677594037157
+- 19:50:37.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/brand
+- 19:50:37.578 DEBUG: OnContextCreated()
+- 19:50:37.735 INFO: GET 200 /custom/js/categories.js
+- 19:50:37.735 INFO: GET 200 /category
+- 19:50:37.782 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/category
+- 19:50:38.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/category
+- 19:50:38.985 INFO: GET 200 /category/fetchCategories?_=1677594037881
+- 19:50:38.047 DEBUG: OnContextCreated()
+- 19:50:38.203 INFO: GET 200 /product
+- 19:50:38.219 INFO: GET 200 /custom/js/product.js
+- 19:50:38.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/product
+- 19:50:38.485 INFO: GET 200 /product/fetchProduct?_=1677594038341
+- 19:50:41.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/product
+- 19:50:41.172 DEBUG: OnContextCreated()
+- 19:50:41.313 INFO: GET 200 /category
+- 19:50:41.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/category
+- 19:50:41.578 INFO: GET 200 /category/fetchCategories?_=1677594041460
+- 19:50:43.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/category
+- 19:50:43.641 DEBUG: OnContextCreated()
+- 19:50:43.797 INFO: GET 200 /service/manage
+- 19:50:43.828 INFO: GET 200 /custom/js/service.js
+- 19:50:43.860 INFO: GET 200 /assests/plugins/datatables/images/sort_desc.png
+- 19:50:44.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/service/manage
+- 19:50:44.078 INFO: GET 200 /service/fetchService?_=1677594043932
+- 19:50:45.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/service/manage
+- 19:50:45.672 DEBUG: OnContextCreated()
+- 19:50:45.813 INFO: GET 200 /orders/manage
+- 19:50:45.860 INFO: GET 200 /custom/js/order.js
+- 19:50:46.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/orders/manage
+- 19:50:46.094 INFO: GET 200 /orders/fetchOrders?_=1677594045962
+- 19:50:52.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/orders/manage
+- 19:50:52.219 INFO: POST 302 /orders/removeOrder
+- 19:50:52.281 DEBUG: OnContextCreated()
+- 19:50:52.422 INFO: GET 200 /orders/manage
+- 19:50:52.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/orders/manage
+- 19:50:52.703 INFO: GET 200 /orders/fetchOrders?_=1677594052570
+- 19:50:57.922 DEBUG: WM_DESTROY
+- 19:50:57.922 DEBUG: RemoveBrowserWindow(): hwnd = 1312456
+- 19:50:57.922 INFO: Stopping Mongoose web server
+- 19:50:57.922 DEBUG: Mongoose webserver stopped immediately
+- 19:50:57.938 DEBUG: OnBeforeClose() hwnd=852298
+- 19:50:57.938 DEBUG: RemoveBrowserWindow(): hwnd = 852298
+- 19:50:57.938 DEBUG: GetBrowserWindow(): not found, hwnd = 852298
+- 19:50:57.938 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:50:57.938 DEBUG: Calling CefQuitMessageLoop()
+- 19:50:57.985 INFO: Ended application
+- 19:50:57.985 INFO: --------------------------------------------------------
